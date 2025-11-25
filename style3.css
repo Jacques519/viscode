@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    --primary: rgba(219, 189, 231, 0.712);
+
+    font-family: 'Poppins', 'open sans', sans-serif;
+    background-color: rgb(231, 236, 240);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+img{
+    width: 30px;
+    height: 24px;
+}
+h1{
+    text-align: center;
+    font-family: "Algerian", sans-serif !important;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+.cover{
+    background-color: snow;
+    width: 500px;
+    height: 450px;
+    padding: 1.5rem 1.6rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    position: fixed;
+    bottom: 15%;
+}
+h4{
+    text-align: center;
+    color: rgb(65, 8, 119);
+}
+.first{
+    font-size: 0.75rem;
+    padding: 0.5rem 1rem;
+}
+.second{
+    font-size: 0.85rem;
+    padding-top: 0.75rem;
+}
+.third{
+    font-size: 0.85rem;
+}
+.groups{
+    font-size: 0.85rem;
+    padding-bottom: 0.35rem;
+    padding-top: 0.25rem;
+}
+.field{
+    padding: 0.30rem 1rem;
+    width: 100%;
+    border-radius: 30px;
+    border-color: rgba(0, 0, 0, 0.205);
+    border-width: 0.05rem;
+}
+input:focus{
+    outline: 0.02rem solid rgba(0, 0, 0, 0.329);
+    border: 0.15rem solid rgba(219, 189, 231, 0.712);
+}
+.submit{
+    background-color: var(--primary);
+    padding: 0.30rem 1rem;
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    color: rgb(65, 8, 119);
+}
+.submit:hover{
+    opacity: 0.8;
+}
+.or{
+    text-align: center;
+    font-size: 0.70rem;
+    color: black;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+.line{
+    width: 100%;
+    height: auto;
+    padding-top: 0.23rem;
+    padding-left: 0.50rem;
+    padding-right: 0.50rem;
+}
+.ref{
+    text-align: center;
+    font-size: 0.75rem;
+}
+a{
+    color: rgb(170, 7, 235);
+}
+a:hover{
+    opacity: 0.8;
+    color: rgba(70, 80, 223, 0.795);
+}

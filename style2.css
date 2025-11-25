@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    --primary: rgb(255, 238, 7);
+    --secondary: rgb(230, 159, 28);
+
+    color: white;
+    font-family:Arial, Helvetica;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+img{
+    width: 400px;
+    height: 175px;
+    border: none;
+}
+h1{
+    text-align: center;
+}
+.page{
+    background-color: rgb(48, 221, 86);
+    width: 300px;
+    padding: 0.30rem 0.75rem;
+    border-radius: 10px;
+    flex-direction: column;
+    font-size: 12px;
+    height: 360px;
+    font-weight: 400px;
+    position: fixed;
+    bottom: 10%;
+}
+.reg{
+    padding: 0.5rem 0.05rem;
+    font-size: 12px;
+}
+.pass{
+    padding: 0.5rem 0.05rem;
+    font-size: 12px;
+}
+.title{
+    text-align: center;
+    padding: 10px;
+}
+.field{
+    background-color: aliceblue;
+    padding: 4.5px 2px;
+    width: 100%;
+    border: 0.5px solid rgba(0, 0, 0, 0.418);
+}
+input{
+    font-size: 11px;
+}
+input:focus{
+    outline: none;
+    border: 1.5px solid rgb(9, 219, 226);
+}
+.registration{
+    padding: 0.15rem 0.0rem;
+}
+.Password{
+    padding: 0.15rem 0.0rem;
+}
+.field::placeholder{
+    padding: 0.35rem;
+    color: rgba(0, 0, 0, 0.349);
+}
+.reset{
+    padding: 1.5rem 0.05rem;
+    text-align: right;
+    font-size: 11px;
+    color: rgb(1, 1, 58);
+}
+.reset:hover{
+    color: rgb(48, 48, 241);
+    opacity: 2;
+}
+button{
+    width: 100%;
+    padding: 0.30rem 0.75rem;
+    cursor: pointer;
+    border-width: 0.05rem;
+}
+button:hover{
+    opacity: 0.7;
+}
+.Login{
+    background-color: var(--primary);
+    border: 0.25px solid rgba(255, 29, 21, 0.918);
+}
+.lms{
+    background-color: var(--secondary);
+    border: none;
+    color: white;
+}
+.other{
+    font-size: 10px;
+    padding-bottom: 2px;
+}
+.line{
+    border: none;
+    border-top: 0.5px solid rgb(76, 207, 76);
+}
+.first{
+    border: none;
+    border-top: 0.25px solid rgb(228, 241, 241);
+}
